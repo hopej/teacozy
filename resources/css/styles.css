@@ -2,3 +2,11 @@ body {
   color: white;
   background-color: black;
 }
+
+header {
+  diplay: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+}

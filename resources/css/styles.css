@@ -68,3 +68,10 @@ h1 {
 h2 {
   font-size: 22px;
 }
+
+#monthly {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}

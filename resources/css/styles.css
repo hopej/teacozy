@@ -74,6 +74,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 #featured {
@@ -98,4 +99,10 @@ h2 {
 #locations {
   padding-top: 70px;
   background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+}
+
+#locations h1 {
+  text-align: center;
+  background-color: transparent;
 }

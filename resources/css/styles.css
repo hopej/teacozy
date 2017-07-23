@@ -75,3 +75,7 @@ h2 {
   align-items: center;
   padding-top: 70px;
 }
+
+.featured-item img {
+  height: 200px;
+}

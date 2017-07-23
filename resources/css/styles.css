@@ -79,6 +79,7 @@ h2 {
 #featured {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .featured-item img {
@@ -92,4 +93,9 @@ h2 {
   padding: 5px;
   text-align: center;
   display: block;
+}
+
+#locations {
+  padding-top: 70px;
+  background-image: url("../images/img-locations-background.jpg");
 }

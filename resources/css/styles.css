@@ -13,6 +13,7 @@ header {
   z-index: 10;
   border-bottom: 1px solid seashell;
   width: 100%;
+  background-color: black;
 }
 
 nav {
@@ -31,8 +32,11 @@ nav a {
 
 #hero {
   background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  justify-content: center;
   display: flex;
   align-items: center;
   height: 700px;
   padding-top: 57px;
+  flex-direction: column;
 }

@@ -76,6 +76,20 @@ h2 {
   padding-top: 70px;
 }
 
+#featured {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .featured-item img {
   height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.featured-item span {
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  display: block;
 }

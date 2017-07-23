@@ -62,7 +62,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 33px;
 }
 
 h2 {
@@ -105,4 +105,9 @@ h2 {
 #locations h1 {
   text-align: center;
   background-color: transparent;
+}
+
+#location-items {
+  display: flex;
+  justify-content: center;
 }

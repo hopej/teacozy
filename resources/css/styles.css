@@ -122,3 +122,8 @@ h2 {
   flex-basis: 280px;
   align-items: center;
 }
+
+h3 {
+  margin: 0;
+  padding: 10px;
+}

@@ -58,6 +58,7 @@ nav a {
 h1, h2 {
   background-color: black;
   margin: 0;
+  padding: 10px;
 }
 
 h1 {

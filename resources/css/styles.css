@@ -127,3 +127,7 @@ h3 {
   margin: 0;
   padding: 10px;
 }
+
+footer p {
+  font-size: 18px;
+}

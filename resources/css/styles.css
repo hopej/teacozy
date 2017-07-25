@@ -111,12 +111,12 @@ h4 {
 #locations h2 {
   text-align: center;
   background-color: transparent;
-  margin-bottom: 15px;
 }
 
 #location-items {
   display: flex;
   justify-content: center;
+  padding-top: 5px;
 }
 
 .location-item {

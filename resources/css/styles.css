@@ -1,9 +1,11 @@
 body {
   color: seashell;
   background-color: black;
-  font-family: Helvetica; sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 22px;
   margin: 0;
+  opacity: 0.9;
+  text-align: center;
 }
 
 header {
@@ -55,17 +57,17 @@ nav a {
   width: 100%
 }
 
-h1, h2 {
+h2, h4 {
   background-color: black;
   margin: 0;
   padding: 10px;
 }
 
-h1 {
+h2 {
   font-size: 33px;
 }
 
-h2 {
+h4 {
   font-size: 22px;
 }
 
@@ -75,6 +77,7 @@ h2 {
   align-items: center;
   padding-top: 70px;
   padding-bottom: 70px;
+  width: 1000px;
 }
 
 #featured {
@@ -85,13 +88,13 @@ h2 {
 
 .featured-item img {
   height: 200px;
+  width: 300px;
   display: block;
   margin: 10px;
 }
 
 .featured-item span {
   font-weight: bold;
-  padding: 5px;
   text-align: center;
   display: block;
 }
@@ -102,9 +105,10 @@ h2 {
   height: 500px;
 }
 
-#locations h1 {
+#locations h2 {
   text-align: center;
   background-color: transparent;
+  margin-bottom: 15px;
 }
 
 #location-items {
@@ -121,6 +125,7 @@ h2 {
   flex-direction: column;
   flex-basis: 280px;
   align-items: center;
+  opacity: 1;
 }
 
 h3 {
@@ -128,8 +133,7 @@ h3 {
   padding: 10px;
 }
 
-footer p {
-  font-size: 18px;
+footer h5 {
   font-weight: bold;
   margin: 30px 0;
 }

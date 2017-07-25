@@ -77,13 +77,16 @@ h4 {
   align-items: center;
   padding-top: 70px;
   padding-bottom: 70px;
-  width: 1000px;
 }
 
 #featured {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.featured-item {
+  padding: 5px;
 }
 
 .featured-item img {
@@ -146,4 +149,5 @@ footer h5 {
 .copyright {
   padding-left: 20px;
   margin-top: 0;
+  text-align: left;
 }
